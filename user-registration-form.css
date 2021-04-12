@@ -1,0 +1,9 @@
+#userRegister {
+    background-color: yellow;
+   
+}
+
+#userRegister > div{
+    display:flex;
+    flex-direction: column;
+}

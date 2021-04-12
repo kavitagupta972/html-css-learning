@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>web page title</title>
+        <link rel = "stylesheet" href = "user-registration-form.css">
+        <script type = "text/javascript" src = "user-registration-form-script.js">
+        </script>
+       
+    </head>
+    <body>
+        <div id = "userRegister" class = "register-user">
+            <label> User Registration Form</label>
+            <div class = "form-row">
+                <label>User Name</label>
+                <input type = "text" value = "input user name">
+
+            </div>
+            <div class = "form-row">
+                <label>Name</label>
+                <input type = "text" value = "input name">
+                
+            </div>
+            <div class = "form-row">
+                <label>Email</label>
+                <input type = "email" value = "input email">
+                
+            </div>
+            <div class = "form-row">
+                <label>Password</label>
+                <input type = "password" value = "input password">
+                
+            </div>
+            <div class = "form-row">
+                <input type = "submit" value = "Submit" onclick = "submitForm()">
+                <input type = "reset" value = "Reset">
+            </div>
+
+        </div>
+        <script>
+            function submitForm() {
+                alert("submitted form");
+            }
+        </script>
+    </body>
+</html>

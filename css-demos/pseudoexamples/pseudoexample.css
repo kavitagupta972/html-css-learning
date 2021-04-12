@@ -1,0 +1,22 @@
+* {
+    background-color: yellow;
+    text-align:center;
+    font-size: 25px;
+   
+}
+
+label {
+    color :red;
+}
+
+.tooltip {
+    display:none;
+}
+
+div:hover{
+    color:red;
+}
+
+div:hover .tooltip{
+    display:block;
+}
