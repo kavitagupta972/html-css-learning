@@ -1,0 +1,28 @@
+p::selection {
+    background-color: yellow;
+    color:rgb(19, 42, 112);
+}
+
+p::first-line {
+    color:red;
+}
+
+p::first-letter{
+    background-color: yellow;
+    font-size: xx-large;
+}
+
+h1.h1ID::first-letter{
+    background-color: yellow;
+    font-size: xx-large;
+}
+
+h1::after{
+    content:"i am after h1 tag";
+    background-color: palegoldenrod;
+}
+
+h1::before{
+    content:"i am before h1 tag";
+    background-color: palegoldenrod;
+}

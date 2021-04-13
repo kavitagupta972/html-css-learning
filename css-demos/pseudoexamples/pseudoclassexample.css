@@ -1,0 +1,47 @@
+* {
+    background-color: yellow;
+    text-align:center;
+    font-size: 25px;
+   
+}
+/* 
+label {
+    color :red;
+}
+
+.tooltip {
+    display:none;
+}
+
+div:hover{
+    color:red;
+}
+
+div:hover .tooltip{
+    display:block;
+}
+
+label.tooltip:hover{
+    background-color: seagreen;
+} */
+
+p:first-child{
+    color:red;
+    font-size: 30px;
+}
+
+p:last-child{
+    color : blue;
+    font-size:15px;
+}
+
+p b {
+    background-color: rgb(221, 21, 54);
+}
+
+p b:first-child {
+    background-color: rgb(245, 159, 173);
+}
+p:first-child b {
+    color: rgb(21, 221, 54);
+}
