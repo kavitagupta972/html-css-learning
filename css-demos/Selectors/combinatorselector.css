@@ -1,0 +1,19 @@
+div > p {
+    color : red;
+    font-size: 20px;
+}
+
+/* div p {
+    color : red;
+    font-size: 20px;
+} */
+
+/* /* div+p {
+background-color: turquoise;
+} */
+
+/*
+
+div ~ p {
+background-color: yellow;
+} */

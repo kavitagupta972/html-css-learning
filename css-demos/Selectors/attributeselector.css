@@ -1,0 +1,30 @@
+a[target] {
+    background-color: chartreuse;
+}
+/* 
+a[target= _parent] {
+    background-color: yellow;
+}
+
+p[id~= para]{
+    background-color: violet;
+}
+
+p[id= para-two]{
+    background-color: turquoise;
+}
+
+/* p[class|=para]{
+    background-color: chartreuse;
+} */
+/*
+p[class^=para]{
+    background-color: chartreuse;
+} */
+/* p[class$=class]{
+    background-color:violet;
+} */
+
+p[class*="cl"]{
+    background-color:teal;
+}
