@@ -1,0 +1,14 @@
+h1{
+  background-color: darkslategrey;
+  text-align: center;
+}
+
+.box{
+  margin:10px;
+  padding:3px;
+  border: 2px solid violet;
+background-color: turquoise;
+}
+.flex-container-nav-bar {
+  display:flex;
+}
